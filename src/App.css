@@ -1,0 +1,283 @@
+.about {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #8e44ad;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.about ul {
+  font-size: 1.1rem;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+}
+
+.about ul li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: #8e44ad;
+}
+
+.about-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 20px;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+}
+.banner {
+  position: relative;
+  height: 400px;
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-content {
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+.faculty {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.faculty h2 {
+  font-size: 2.5rem;
+  color: #8e44ad;
+  margin-bottom: 30px;
+}
+
+.faculty-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.faculty-member {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.faculty-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.faculty-member h3 {
+  font-size: 1.2rem;
+  color: #34495e;
+  margin-bottom: 5px;
+}
+
+.faculty-member p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+.contact {
+  padding: 50px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  color: #8e44ad;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.contact-item h3 {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.contact-item p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
+
+.contact-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-item {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .contact-item img {
+    width: 120px;
+    height: 120px;
+  }
+}
+.contact {
+  padding: 50px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  color: #8e44ad;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.contact-item h3 {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.contact-item p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.contact-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-item {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .contact-item img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
